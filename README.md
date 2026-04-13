@@ -31,7 +31,7 @@
 Experience the full interactive dashboard  
 <br><br>
 
-<a href="YOUR_STREAMLIT_LINK">
+<a href="https://munnurivaishnavipanchatantranlpanalysis.streamlit.app/">
 <img src="https://img.icons8.com/color/96/streamlit.png" width="60"/>
 <br><br>
 <b>▶ Launch App</b>
