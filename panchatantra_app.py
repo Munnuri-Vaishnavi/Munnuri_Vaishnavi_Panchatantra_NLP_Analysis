@@ -303,12 +303,18 @@ with st.sidebar:
     st.markdown('<div class="slogo">📖 PANCHATANTRA</div>', unsafe_allow_html=True)
     st.markdown('<div class="ssub">NLP ANALYSIS SUITE</div>', unsafe_allow_html=True)
     st.markdown("---")
-    uploaded = st.file_uploader("", type=["csv"],
-                                help="Upload panchatantra_full_50.csv",
-                                label_visibility="collapsed")
-    st.markdown("---")
-    n_cart = len(st.session_state.cart)
-    page   = st.radio("", [
+    import os
+
+# Load from repo directly if running on Streamlit Cloud
+
+   
+    with open("panchatantra_full_50.csv", "rb") as f:
+          
+         df = load_and_process(f.read())
+  
+   st.markdown("---")
+   n_cart = len(st.session_state.cart)
+   page   = st.radio("", [
         "🏠  Overview",
         "📊  EDA Charts",
         "🧠  NLP Analysis",
@@ -328,15 +334,8 @@ with st.sidebar:
 # ══════════════════════════════════════════════════════════
 # UPLOAD GATE
 # ══════════════════════════════════════════════════════════
-if uploaded is None:
-    st.markdown('<div class="hero"><div class="hero-title">📖 PANCHATANTRA NLP</div>'
-                '<div class="hero-sub">Ancient Wisdom · Modern Analysis</div></div>',
-                unsafe_allow_html=True)
-    st.markdown("<div class='div'></div>", unsafe_allow_html=True)
-    _, mid, _ = st.columns([1,2,1])
-    with mid:
-        st.info("👈 Upload **`panchatantra_full_50.csv`** in the sidebar.\n\n"
-                "Columns: `story_id · title · story · moral · emotion · theme`")
+if not os.path.exists("panchatantra_full_50.csv") and uploaded is None:
+    st.info("👈 Upload panchatantra_full_50.csv to begin.")
     st.stop()
 
 # ══════════════════════════════════════════════════════════
