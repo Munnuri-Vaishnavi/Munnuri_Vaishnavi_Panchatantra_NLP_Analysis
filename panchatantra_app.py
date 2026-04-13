@@ -312,9 +312,9 @@ with st.sidebar:
           
          df = load_and_process(f.read())
   
-   st.markdown("---")
-   n_cart = len(st.session_state.cart)
-   page   = st.radio("", [
+    st.markdown("---")
+    n_cart = len(st.session_state.cart)
+    page   = st.radio("", [
         "🏠  Overview",
         "📊  EDA Charts",
         "🧠  NLP Analysis",
