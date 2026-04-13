@@ -341,7 +341,7 @@ if not os.path.exists("panchatantra_full_50.csv") and uploaded is None:
 # ══════════════════════════════════════════════════════════
 # LOAD DATA
 # ══════════════════════════════════════════════════════════
-df = load_and_process(f.read())
+#df = load_and_process(f.read())
 
 # ── Aggregated variables (same as notebook Steps 6–8) ───────────────────────────
 
