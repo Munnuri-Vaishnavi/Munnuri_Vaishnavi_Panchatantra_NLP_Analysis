@@ -269,11 +269,11 @@ Follow these steps to explore the NLP pipeline:
 
 ### Munnuri Vaishnavi
 
-📧 your.email@example.com  
+📧 vaishnavi22092006@gmail.com  
 
-🔗 [LinkedIn](#)  
+🔗 [LinkedIn](https://www.linkedin.com/in/munnurivaishnavi/)  
 
-🐙 [GitHub](#)
+🐙 [GitHub](https://github.com/Munnuri-Vaishnavi)
 
 <div align="center">
 
