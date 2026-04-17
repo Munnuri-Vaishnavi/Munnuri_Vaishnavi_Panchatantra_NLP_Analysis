@@ -1,13 +1,11 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
-║   Panchatantra NLP — Streamlit App                           ║
-║   All logic copied EXACTLY from panchatantra_nlp_analysis    ║
-║   .ipynb — same functions, same variable names, same params  ║
+║   Panchatantra NLP — Streamlit App                           ║                                                          ║
 ║   Run: streamlit run panchatantra_app.py                     ║
 ╚══════════════════════════════════════════════════════════════╝
 """
 
-# ── Imports (same as Colab notebook Step 1) ─────────────────────────────────────
+# ── Imports  ─────────────────────────────────────
 import re
 import io
 import base64
@@ -109,7 +107,7 @@ div.stButton>button:hover{background:linear-gradient(135deg,#5a3a8a,#3d2d6a)!imp
 """, unsafe_allow_html=True)
 
 # ══════════════════════════════════════════════════════════
-# CONSTANTS — copied exactly from Colab notebook Step 5
+# CONSTANTS
 # ══════════════════════════════════════════════════════════
 
 # Exact same ANIMALS list as notebook
@@ -166,7 +164,7 @@ def dax(fig):
     return fig
 
 # ══════════════════════════════════════════════════════════
-# NLP FUNCTIONS — copied EXACTLY from Colab notebook
+# NLP FUNCTIONS
 # ══════════════════════════════════════════════════════════
 
 @st.cache_data
@@ -249,7 +247,7 @@ def tts_audio(text):
         return f"<p style='color:#f87171'>Audio error: {e}</p>"
 
 # ══════════════════════════════════════════════════════════
-# MAIN DATA PROCESSING — same pipeline as Colab notebook
+# MAIN DATA PROCESSING 
 # ══════════════════════════════════════════════════════════
 @st.cache_data
 def load_and_process(raw_bytes):
@@ -509,7 +507,7 @@ if page == "🏠  Overview":
                     f'{pos["sentiment"]:.3f}</div>', unsafe_allow_html=True)
 
 # ══════════════════════════════════════════════════════════════════════
-# PAGE 2 — EDA CHARTS  (exactly matches notebook Steps 6.2–6.6)
+# PAGE 2 — EDA CHARTS  
 # ══════════════════════════════════════════════════════════════════════
 elif page == "📊  EDA Charts":
     st.markdown('<div class="hero"><div class="hero-title">📊 EDA CHARTS</div>'
@@ -585,7 +583,7 @@ elif page == "📊  EDA Charts":
                f"Min: {df['word_count'].min()} | Max: {df['word_count'].max()}")
 
 # ══════════════════════════════════════════════════════════════════════
-# PAGE 3 — NLP ANALYSIS  (notebook Steps 6.7, 6.8, 8)
+# PAGE 3 — NLP ANALYSIS  
 # ══════════════════════════════════════════════════════════════════════
 elif page == "🧠  NLP Analysis":
     st.markdown('<div class="hero"><div class="hero-title">🧠 NLP ANALYSIS</div>'
@@ -801,7 +799,7 @@ elif page == "🎮  Story Quiz":
                     add_to_cart(q_row['story_id'], df)
 
 # ══════════════════════════════════════════════════════════════════════
-# PAGE 7 — RECOMMENDER (uses TF-IDF sim_mat from notebook Step 8)
+# PAGE 7 — RECOMMENDER (uses TF-IDF sim_mat from notebook )
 # ══════════════════════════════════════════════════════════════════════
 elif page == "🤖  Recommender":
     st.markdown('<div class="hero"><div class="hero-title">🤖 RECOMMENDER</div>'
