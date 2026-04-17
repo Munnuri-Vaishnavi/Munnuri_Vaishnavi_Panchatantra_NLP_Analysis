@@ -211,8 +211,8 @@ Step 8 ── Interactive Dashboard (Plotly + HTML export)
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YourUsername/panchatantra-nlp-analysis.git
-cd panchatantra-nlp-analysis
+git clone https://github.com/Munnuri-Vaishnavi/Munnuri_Vaishnavi_Panchatantra_NLP_Analysis.git
+cd Munnuri_Vaishnavi_Panchatantra_NLP_Analysis
 ```
 ### 2️⃣ Install dependencies
 ``` bash
