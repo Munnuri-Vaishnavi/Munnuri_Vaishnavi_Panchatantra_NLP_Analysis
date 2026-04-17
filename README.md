@@ -34,7 +34,7 @@ Experience the full interactive dashboard
 <a href="https://munnurivaishnavipanchatantranlpanalysis.streamlit.app/">
 <img src="https://img.icons8.com/color/96/streamlit.png" width="60"/>
 <br><br>
-<b>▶ Launch App</b>
+<b>▶ Open Streamlit App</b>
 </a>
 
 </td>
