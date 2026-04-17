@@ -231,7 +231,7 @@ http://localhost:8501
 Follow these steps to explore the NLP pipeline:
 
 1. Click the **Open in Colab** badge at the top of this README  
-2. Upload `panchatantra_full_50.csv` when prompted  
+2. Upload `panchatantra_full_50.csv`  
 3. Run all cells → **Runtime → Run all**  
 4. The dashboard will auto-download as `panchatantra_dashboard.html`  
 
