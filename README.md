@@ -46,7 +46,7 @@ Experience the full interactive dashboard
 Explore the NLP pipeline & implementation  
 <br><br>
 
-<a href="YOUR_COLAB_LINK">
+<a href="https://colab.research.google.com/drive/1LBP3k-eS15pu2Jm-l4RolEPHw0Mq3wew?usp=sharing">
 <img src="https://img.icons8.com/color/96/google-colab.png" width="60"/>
 <br><br>
 <b>📊 Open Notebook</b>
