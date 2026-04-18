@@ -53,6 +53,20 @@ Explore the NLP pipeline & implementation
 </a>
 
 </td>
+<td align="center" width="300" height="220">
+
+### 📓 Notebook (Colab)  
+<br>
+Explore the NLP pipeline & implementation  
+<br><br>
+
+<a href="https://colab.research.google.com/drive/1LBP3k-eS15pu2Jm-l4RolEPHw0Mq3wew?usp=sharing">
+<img src="https://img.icons8.com/color/96/google-colab.png" width="60"/>
+<br><br>
+<b>📊 Open Notebook</b>
+</a>
+
+</td>
 
 </tr>
 </table>
