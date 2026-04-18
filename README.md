@@ -18,59 +18,52 @@
 </div>
 
 
-### 🚀 Explore the Project
-
 <div align="center">
 
+## 🚀 Explore the Project
+
+<br>
 
 <table>
-<tr>
+  <tr>
 
-<td align="center" width="300" valign="top">
+    <!-- Live App -->
+    <td align="center" width="33%" valign="top">
+      <h3>🌐 Live Application</h3>
+      <p>Experience the full interactive dashboard</p>
 
-### 🌐 Live Application
+      <a href="https://munnurivaishnavipanchatantranlpanalysis.streamlit.app/">
+        <img src="https://img.icons8.com/color/96/streamlit.png" width="60"/>
+        <br><br>
+        <b>▶ Open Streamlit App</b>
+      </a>
+    </td>
 
-<p>Experience the full interactive dashboard</p>
+    <!-- Dashboard -->
+    <td align="center" width="33%" valign="top">
+      <h3>📊 Interactive Dashboard</h3>
+      <p>Explore insights & visual analytics</p>
 
-<a href="https://munnurivaishnavipanchatantranlpanalysis.streamlit.app/">
-<img src="https://img.icons8.com/color/96/streamlit.png" width="60"/>
-<br><br>
-<b>▶ Open Streamlit App</b>
-</a>
+      <a href="YOUR_LIVE_DASHBOARD_LINK">
+        <img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
+        <br><br>
+        <b>📈 Open Dashboard</b>
+      </a>
+    </td>
 
-</td>
+    <!-- Colab -->
+    <td align="center" width="33%" valign="top">
+      <h3>📓 Notebook (Colab)</h3>
+      <p>Explore the NLP pipeline & implementation</p>
 
-<td align="center" width="300" valign="top">
+      <a href="https://colab.research.google.com/drive/1LBP3k-eS15pu2Jm-l4RolEPHw0Mq3wew?usp=sharing">
+        <img src="https://img.icons8.com/color/96/google-colab.png" width="60"/>
+        <br><br>
+        <b>📊 Open Notebook</b>
+      </a>
+    </td>
 
-
-
-### 📊 Interactive Dashboard
-
-<p>Explore insights & visual analytics</p>
-
-<a href="YOUR_LIVE_DASHBOARD_LINK">
-<img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
-<br><br>
-<b>📈 Open Dashboard</b>
-</a>
-
-</td>
-
-<td align="center" width="300" valign="top">
-
-### 📓 Notebook (Colab)
-
-<p>Explore the NLP pipeline & implementation</p>
-
-<a href="https://colab.research.google.com/drive/1LBP3k-eS15pu2Jm-l4RolEPHw0Mq3wew?usp=sharing">
-<img src="https://img.icons8.com/color/96/google-colab.png" width="60"/>
-<br><br>
-<b>📊 Open Notebook</b>
-</a>
-
-</td>
-
-</tr>
+  </tr>
 </table>
 
 </div>
