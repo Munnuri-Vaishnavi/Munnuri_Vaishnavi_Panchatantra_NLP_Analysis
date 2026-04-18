@@ -45,7 +45,7 @@
 
 <p>Explore insights & visual analytics</p>
 
-<a href="YOUR_LIVE_DASHBOARD_LINK">
+<a href="https://elegant-druid-2adf84.netlify.app/">
 <img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
 <br><br>
 <b>📈 Open Dashboard</b>
@@ -109,7 +109,7 @@ panchatantra-nlp-analysis/
 ├── 📄 requirements.txt                 ← Python dependencies
 └── 📄 README.md                        ← This file
 ```
-
+---
 ## 📊 Dataset
 
 The dataset was custom built for this project — not taken from any existing source.
@@ -124,6 +124,7 @@ The dataset was custom built for this project — not taken from any existing so
 | emotion  | string | Emotion label (fear, joy, anger, betrayal, surprise, etc.) |
 | theme    | string | Moral theme (trust, intelligence, cooperation, etc.)       |
 
+---
 ### 📈 Dataset stats
 
 - 📚 50 stories · 22 unique themes · 12 emotion types  
@@ -131,6 +132,7 @@ The dataset was custom built for this project — not taken from any existing so
 - ✨ Realistic noise: apostrophes, contractions, commas, dashes  
 - 📖 Stories written as natural paragraphs — not simple sentences  
 
+---
 ## 🔍 NLP Pipeline (Google Colab Notebook)
 
 ```text
@@ -163,6 +165,7 @@ Step 8 ── Interactive Dashboard (Plotly + HTML export)
 Step 8 ── Interactive Dashboard (Plotly + HTML export)
 ```
 
+---
 ## 📊 Analyses Performed
 
 | # | Analysis | Method |
@@ -241,6 +244,8 @@ streamlit run panchatantra_app.py
 ``` bash
 http://localhost:8501
 ```
+
+---
 ## 📓 Run the Colab Notebook
 
 Follow these steps to explore the NLP pipeline:
