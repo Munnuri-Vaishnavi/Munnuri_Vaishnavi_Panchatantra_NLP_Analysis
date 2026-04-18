@@ -47,10 +47,10 @@
 
 <a href="https://elegant-druid-2adf84.netlify.app/">
 <img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
-<br><br>
-<div style="margin-top:30px;">
+<br><br><br>
+
   <b>📈 Open Dashboard</b>
-</div>
+
 </a>
 
 </td>
