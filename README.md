@@ -46,7 +46,6 @@
 <p>Explore insights & visual analytics</p>
 
 <a href="https://elegant-druid-2adf84.netlify.app/">
-  <br>
 <img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
 <br><br><br>
 
