@@ -18,9 +18,10 @@
 </div>
 
 
+### 🚀 Explore the Project
 
 <div align="center">
-### 🚀 Explore the Project
+
 
 <table>
 <tr>
@@ -40,6 +41,8 @@
 </td>
 
 <td align="center" width="300" valign="top">
+
+
 
 ### 📊 Interactive Dashboard
 
