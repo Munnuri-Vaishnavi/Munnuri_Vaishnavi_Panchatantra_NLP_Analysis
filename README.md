@@ -16,9 +16,6 @@
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![gTTS](https://img.shields.io/badge/Text--to--Speech-gTTS-blue?style=for-the-badge)
 
-</div>
-<div align="center">
-
 ## 🚀 Explore the Project
 
 <div align="center">
@@ -26,13 +23,11 @@
 <table>
 <tr>
 
-<td align="center" width="300">
+<td align="center" width="300" valign="top">
 
 ### 🌐 Live Application
 
-Experience the full interactive dashboard  
-
-<br>
+<p>Experience the full interactive dashboard</p>
 
 <a href="https://munnurivaishnavipanchatantranlpanalysis.streamlit.app/">
 <img src="https://img.icons8.com/color/96/streamlit.png" width="60"/>
@@ -42,13 +37,11 @@ Experience the full interactive dashboard
 
 </td>
 
-<td align="center" width="300">
+<td align="center" width="300" valign="top">
 
 ### 📊 Interactive Dashboard
 
-Explore insights & visual analytics  
-
-<br>
+<p>Explore insights & visual analytics</p>
 
 <a href="YOUR_LIVE_DASHBOARD_LINK">
 <img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
@@ -58,13 +51,11 @@ Explore insights & visual analytics
 
 </td>
 
-<td align="center" width="300">
+<td align="center" width="300" valign="top">
 
 ### 📓 Notebook (Colab)
 
-Explore the NLP pipeline & implementation  
-
-<br>
+<p>Explore the NLP pipeline & implementation</p>
 
 <a href="https://colab.research.google.com/drive/1LBP3k-eS15pu2Jm-l4RolEPHw0Mq3wew?usp=sharing">
 <img src="https://img.icons8.com/color/96/google-colab.png" width="60"/>
@@ -78,6 +69,9 @@ Explore the NLP pipeline & implementation
 </table>
 
 </div>
+
+
+
 
 ## 📌 Project Overview
 
