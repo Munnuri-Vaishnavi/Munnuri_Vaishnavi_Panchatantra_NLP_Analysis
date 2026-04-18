@@ -21,15 +21,18 @@
 
 ## 🚀 Explore the Project
 
+<div align="center">
+
 <table>
 <tr>
 
-<td align="center" width="300" height="220">
+<td align="center" width="300">
 
-### 🌐 Live Application  
-<br>
+### 🌐 Live Application
+
 Experience the full interactive dashboard  
-<br><br>
+
+<br>
 
 <a href="https://munnurivaishnavipanchatantranlpanalysis.streamlit.app/">
 <img src="https://img.icons8.com/color/96/streamlit.png" width="60"/>
@@ -39,26 +42,29 @@ Experience the full interactive dashboard
 
 </td>
 
-<td align="center" width="300" height="220">
+<td align="center" width="300">
 
-### 📓 Dashboard  
-<br>
+### 📊 Interactive Dashboard
+
 Explore insights & visual analytics  
-<br><br>
 
-<a href="assets/panchatantra_dashboard.html">
+<br>
+
+<a href="YOUR_LIVE_DASHBOARD_LINK">
 <img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
 <br><br>
 <b>📈 Open Dashboard</b>
 </a>
 
 </td>
-<td align="center" width="300" height="220">
 
-### 📓 Notebook (Colab)  
-<br>
+<td align="center" width="300">
+
+### 📓 Notebook (Colab)
+
 Explore the NLP pipeline & implementation  
-<br><br>
+
+<br>
 
 <a href="https://colab.research.google.com/drive/1LBP3k-eS15pu2Jm-l4RolEPHw0Mq3wew?usp=sharing">
 <img src="https://img.icons8.com/color/96/google-colab.png" width="60"/>
