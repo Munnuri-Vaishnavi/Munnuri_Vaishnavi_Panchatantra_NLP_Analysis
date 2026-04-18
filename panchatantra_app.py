@@ -110,7 +110,7 @@ div.stButton>button:hover{background:linear-gradient(135deg,#5a3a8a,#3d2d6a)!imp
 # CONSTANTS
 # ══════════════════════════════════════════════════════════
 
-# Exact same ANIMALS list as notebook
+# ANIMALS list 
 ANIMALS = [
     'monkey', 'lion', 'rabbit', 'fox', 'crow', 'tortoise', 'jackal',
     'elephant', 'snake', 'mouse', 'crocodile', 'deer', 'goat', 'tiger',
@@ -118,7 +118,7 @@ ANIMALS = [
     'donkey', 'crane', 'mongoose', 'hyena', 'wolf', 'hare', 'frog', 'hawk'
 ]
 
-# Exact same ACTION_WORDS list as notebook
+# ACTION_WORDS list 
 ACTION_WORDS = [
     'tricked', 'escaped', 'saved', 'betrayed', 'warned', 'fought',
     'helped', 'planned', 'fled', 'attacked', 'sacrificed', 'cooperated',
@@ -126,14 +126,14 @@ ACTION_WORDS = [
     'revealed', 'won'
 ]
 
-# Exact same SMART_WORDS set as notebook
+# SMART_WORDS 
 SMART_WORDS = {
     'intelligence', 'clever', 'wit', 'tricked', 'outsmarted', 'strategy',
     'cunning', 'wisdom', 'planned', 'deceived', 'outwitted', 'scheme',
     'calculated', 'resourceful', 'sharp'
 }
 
-# Exact same THEME_COLORS dict as notebook
+# THEME_COLORS dict
 THEME_COLORS = {
     'trust':          '#e74c3c', 'intelligence':   '#3498db',
     'greed':          '#f39c12', 'overconfidence': '#9b59b6',
@@ -187,7 +187,7 @@ def build_stopwords():
 
 ALL_SW = build_stopwords()
 
-# Exact same as clean_to_tokens() in notebook Step 3
+# clean_to_tokens() in notebook Step 
 def clean_to_tokens(text):
     text  = str(text).lower()
     text  = re.sub(r'[^a-z\s]', '', text)
@@ -195,29 +195,29 @@ def clean_to_tokens(text):
     words = [w for w in words if w not in ALL_SW and len(w) > 2]
     return words
 
-# Exact same as clean_to_string() in notebook Step 3
+# clean_to_string() in notebook Step 3
 def clean_to_string(text):
     return ' '.join(clean_to_tokens(text))
 
-# Exact same as get_sentiment() in notebook Step 5
+# get_sentiment() in notebook Step 5
 def get_sentiment(text):
     sia = SentimentIntensityAnalyzer()
     return sia.polarity_scores(str(text))['compound']
 
-# Exact same as get_intelligence_score() in notebook Step 5
+#  get_intelligence_score() in notebook Step 5
 def get_intelligence_score(text):
     token_set = set(clean_to_tokens(text))
     overlap   = len(token_set & SMART_WORDS)
     score     = overlap / max(len(token_set), 1) * 100
     return round(score, 2)
 
-# Exact same as get_main_character() in notebook Step 5
+#  get_main_character() in notebook Step 5
 def get_main_character(text):
     text   = str(text).lower()
     counts = {animal: text.count(animal) for animal in ANIMALS if animal in text}
     return max(counts, key=counts.get) if counts else 'other'
 
-# Exact same as count_actions() in notebook Step 5
+#  count_actions() in notebook Step 5
 def count_actions(text):
     text = str(text).lower()
     return {action: text.count(action) for action in ACTION_WORDS}
