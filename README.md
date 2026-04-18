@@ -41,15 +41,15 @@ Experience the full interactive dashboard
 
 <td align="center" width="300" height="220">
 
-### 📓 Notebook (Colab)  
+### 📓 Dashboard  
 <br>
-Explore the NLP pipeline & implementation  
+Explore insights & visual analytics  
 <br><br>
 
-<a href="https://colab.research.google.com/drive/1LBP3k-eS15pu2Jm-l4RolEPHw0Mq3wew?usp=sharing">
-<img src="https://img.icons8.com/color/96/google-colab.png" width="60"/>
+<a href="assets/panchatantra_dashboard.html">
+<img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/>
 <br><br>
-<b>📊 Open Notebook</b>
+<b>📈 Open Dashboard</b>
 </a>
 
 </td>
