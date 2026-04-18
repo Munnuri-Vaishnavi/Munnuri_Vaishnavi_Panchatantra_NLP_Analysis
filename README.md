@@ -7,7 +7,7 @@
 ### Applying Modern NLP Techniques to 2500-Year-Old Ancient Indian Wisdom  
 
 
-<br>
+
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -15,6 +15,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![gTTS](https://img.shields.io/badge/Text--to--Speech-gTTS-blue?style=for-the-badge)
+</div>
 
 ## 🚀 Explore the Project
 
